@@ -38,3 +38,24 @@ console.log("</ul>")
 }
 console.log(konutKredileri)
 
+
+let student = {id:1, name:"Engin"}
+
+// function save(ogrenci, puan=10)  {
+//     console.log(ogrenci.name +" : "+ puan)
+// }
+// save(student);
+
+function save( puan=10, ogrenci)  {
+    console.log(ogrenci.name +" : "+ puan)
+}
+save(undefined,student);
+
+let students=["Engin Demiroğ","Nizes Lore","Sezin Erol"]
+//console.log(students)
+
+let students2=[student,{id:2, name:"Nizes"}, "Artvin",{city: "Ankara"}]
+console.log(students2)
+
+
+
