@@ -1,4 +1,4 @@
-console.log("Merhaba Kodlama.io")
+//console.log("Merhaba Kodlama.io")
 
 //JS type safe değildir
 //dolarDun = "Ankara"
@@ -16,7 +16,7 @@ console.log(dolarDun)
 const euroDun = 11.2
 //euroDun = 11
 
-console.log(euroDun)
+//console.log(euroDun)
 
 //array
 //camelCasing
@@ -37,25 +37,5 @@ console.log("</ul>")
     // </ul>
 }
 console.log(konutKredileri)
-
-
-let student = {id:1, name:"Engin"}
-
-// function save(ogrenci, puan=10)  {
-//     console.log(ogrenci.name +" : "+ puan)
-// }
-// save(student);
-
-function save( puan=10, ogrenci)  {
-    console.log(ogrenci.name +" : "+ puan)
-}
-save(undefined,student);
-
-let students=["Engin Demiroğ","Nizes Lore","Sezin Erol"]
-//console.log(students)
-
-let students2=[student,{id:2, name:"Nizes"}, "Artvin",{city: "Ankara"}]
-console.log(students2)
-
 
 
