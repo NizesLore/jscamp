@@ -7,7 +7,7 @@ addToCart("karpuz")
 addToCart(10)
 
 
-ME
+//ME
 function asalMi(i =2, i<number, i++) {
     if (number % 2 ==0) {
         findPrime = false;
